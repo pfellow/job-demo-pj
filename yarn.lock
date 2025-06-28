@@ -2268,6 +2268,50 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@t3-oss/env-core@npm:0.13.8":
+  version: 0.13.8
+  resolution: "@t3-oss/env-core@npm:0.13.8"
+  peerDependencies:
+    arktype: ^2.1.0
+    typescript: ">=5.0.0"
+    valibot: ^1.0.0-beta.7 || ^1.0.0
+    zod: ^3.24.0 || ^4.0.0-beta.0
+  peerDependenciesMeta:
+    arktype:
+      optional: true
+    typescript:
+      optional: true
+    valibot:
+      optional: true
+    zod:
+      optional: true
+  checksum: 10c0/429a082d3c6dff9fb020b725e0fad5a08f6b210caf367e320d3a6b1835297d497aa29eb7e39018d442b03d2aa43a3361bde7dad06d8b6d0a57068adfb65bd367
+  languageName: node
+  linkType: hard
+
+"@t3-oss/env-nuxt@npm:^0.13.8":
+  version: 0.13.8
+  resolution: "@t3-oss/env-nuxt@npm:0.13.8"
+  dependencies:
+    "@t3-oss/env-core": "npm:0.13.8"
+  peerDependencies:
+    arktype: ^2.1.0
+    typescript: ">=5.0.0"
+    valibot: ^1.0.0-beta.7 || ^1.0.0
+    zod: ^3.24.0 || ^4.0.0-beta.0
+  peerDependenciesMeta:
+    arktype:
+      optional: true
+    typescript:
+      optional: true
+    valibot:
+      optional: true
+    zod:
+      optional: true
+  checksum: 10c0/981caf79a91c8eb61bec71dbdc18d05bb52ff1a93a05793831b3c4026982db3849c5378384e4862ba4d7501bfad25640de1e5249d610aabe1b12a5ab0e776cbf
+  languageName: node
+  linkType: hard
+
 "@tailwindcss/node@npm:4.1.11":
   version: 4.1.11
   resolution: "@tailwindcss/node@npm:4.1.11"
@@ -7469,6 +7513,7 @@ __metadata:
   dependencies:
     "@nuxt/eslint": "npm:1.4.1"
     "@nuxtjs/tailwindcss": "npm:7.0.0-beta.0"
+    "@t3-oss/env-nuxt": "npm:^0.13.8"
     "@types/pg": "npm:^8.15.4"
     drizzle-kit: "npm:^0.31.4"
     drizzle-orm: "npm:^0.44.2"
