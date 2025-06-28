@@ -3,6 +3,6 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <h1>Hello there</h1>
+    <h1 class="text-amber-800">Hello there</h1>
   </div>
 </template>
